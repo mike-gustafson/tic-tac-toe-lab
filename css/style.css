@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: gainsboro;
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 3px solid black;
+    font-size: 64px;
+    text-align: center;
+  }
+
+  #reset {
+    width: 90%;
+    padding: 10px;
+    font-size: 24px;
+    background-color: crimson;
+    color: white;
+    display: none;
+  }
